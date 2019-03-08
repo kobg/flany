@@ -64,7 +64,7 @@ def main():
     while True:
         runda += 1
         #print(runda)
-        #input()
+        input()
         os.system("cls")
         if(x%2==0):
             t1y +=1
@@ -94,9 +94,11 @@ def main():
 
         if team1count == 5:
             print(team1name,"WYGRALA")
+            input()
             break
         if team2count == 5:
             print(team2name, "WYGRALA")
+            input()
             break
         tabela(grajacy)
         x += 1
